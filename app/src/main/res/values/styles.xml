@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorSecondary">#F3E5F5</item>
+    </style>
+
+    <style name="customToast">
+        <item name="colorBackground">#FF0000</item>
+        <item name="iconLeft">@drawable/cancel_icon</item>
+        <item name="cornerRadius">3dp</item>
+        <item name="length">LONG</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="textColor">#000</item>
+    </style>
+
+</resources>
